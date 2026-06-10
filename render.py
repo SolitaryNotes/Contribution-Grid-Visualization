@@ -30,7 +30,7 @@ start_date = first_day - datetime.timedelta(days=days_to_sunday)
 # ================= Set up the figure =================
 fig, ax = plt.subplots(figsize=(16, 9))
 ax.set_facecolor(COLOR_BG)
-ax.set_xlim(0, COLS * (CELL_SIZE + GAP) + 150)
+ax.set_xlim(0, COLS * (CELL_SIZE + GAP) + 112)
 ax.set_ylim(0, ROWS * (CELL_SIZE + GAP) + 100)
 
 offset_x, offset_y = 75, 50
