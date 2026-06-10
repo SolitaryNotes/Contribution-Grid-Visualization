@@ -33,7 +33,7 @@ ax.set_facecolor(COLOR_BG)
 ax.set_xlim(0, COLS * (CELL_SIZE + GAP) + 150)
 ax.set_ylim(0, ROWS * (CELL_SIZE + GAP) + 100)
 
-offset_x, offset_y = 50, 50
+offset_x, offset_y = 75, 50
 ax.set_aspect('equal')
 
 # ================= Draw the contribution grid =================
