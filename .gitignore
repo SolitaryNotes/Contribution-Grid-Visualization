@@ -20,8 +20,9 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Matplotlib / output
-*.svg
+# Generated output (uncomment to ignore)
+# contribution_grid.svg
+# contribution_grid.png
 
 # Other
 Context.md
